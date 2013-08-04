@@ -1,11 +1,14 @@
+#!/usr/bin/python
+
 from distutils.core import setup
 
 setup(name='deep',
-      version='0.2',
+      version='0.8.1',
       packages = ['deep'],
       author="Fergal Daly",
       author_email="fergal@esatclear.ie",
       description="Easy, flexible deep comparison and testing of structured data",
-      url="http://www.fergaldaly.com/computer/python/deep",
-      download_url="http://www.fergaldaly.com/computer/python/deep",
+      url="http://code.google.com/p/python-deep/",
+      download_url="http://code.google.com/p/python-deep/downloads/list",
+      license="LGPL",
       )

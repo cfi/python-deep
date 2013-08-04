@@ -1,6 +1,7 @@
 #! /usr/bin/python
 
-# Copyright 2006 Fergal Daly <fergal@esatclear.ie>
+# Copyright 2008 Fergal Daly <fergal@esatclear.ie>
+# Copyright 2013 Ingo Schmiegel <gcode@ingoschmiegel.de>
 
 # This file is part of deep.py.
 #
@@ -21,7 +22,7 @@ import deep.test
 
 class DeepTest(deep.test.TestCase):
   def testTest(self):
-    self.assertEquals(1, 1)
+    self.assertEqual(1, 1)
     self.DeepEq([1], [1], "wibble")
 
 if __name__ == '__main__':

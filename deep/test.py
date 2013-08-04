@@ -1,4 +1,5 @@
-# Copyright 2006 Fergal Daly <fergal@esatclear.ie>
+# Copyright 2008 Fergal Daly <fergal@esatclear.ie>
+# Copyright 2013 Ingo Schmiegel <gcode@ingoschmiegel.de>
 
 # This file is part of deep.py.
 #
@@ -28,7 +29,7 @@ class TestCaseMix(object):
       msg = "%s:\nExpected: %s\nActual  : %s" % (msg, second, first)
       msg += "\nDiffered at " + res.render_full()
 
-    self.failUnless(not res, msg)
+    self.assertTrue(not res, msg)
 
 class TestCase(unittest.TestCase, TestCaseMix):
   """ A premixed TestCase class """
